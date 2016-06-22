@@ -9,6 +9,12 @@ Run all the commands from within the project root directory.
 - [Dockerfile](https://github.com/don41382/docker-rpi-python3-with-bluetooth/blob/master/Dockerfile)
 - [DockerHub](https://hub.docker.com/r/don41382/rpi-python3-with-bluetooth/)
 
+#### Run the docker image inside of your raspberry-pi
+  1. Follow the instruction from [Hypriot aka the Docker Pirates](http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/)
+  2. start the docker with bluetooth from host
+```bash
+docker run -a stdin -a stdout -i -t  -it --net host don41382/rpi-python3-with-bluetooth
+```
 
 #### Build the Docker Image
 ```bash
