@@ -1,13 +1,13 @@
 # rpi-python3 with bluetooth & bluepy running
 
-Raspberry Pi compatible Docker base image with Python 3 preinstalled.
+Raspberry Pi compatible Docker base image with Python 3 and bluepy/bluez/bluetooth preinstalled.
 
 Run all the commands from within the project root directory.
 
 ### Build Details
-- [Source Repository](https://github.com/jsribeiro/rpi-python3)
-- [Dockerfile](https://github.com/jsribeiro/rpi-python3/blob/master/Dockerfile)
-- [DockerHub](https://registry.hub.docker.com/u/sena/rpi-python3/)
+- [Source Repository](https://github.com/don41382/docker-rpi-python3-with-bluetooth)
+- [Dockerfile](https://github.com/don41382/docker-rpi-python3-with-bluetooth/blob/master/Dockerfile)
+- [DockerHub](https://hub.docker.com/r/don41382/rpi-python3-with-bluetooth/)
 
 
 #### Build the Docker Image
@@ -30,26 +30,11 @@ make push
 
 ## License
 
-The MIT License (MIT)
+"THE BEER-WARE LICENSE" (Revision 42):
+Felix Eckhardt wrote this file.  As long as you retain this notice you
+can do whatever you want with this stuff. If we meet some day, and you think
+this stuff is worth it, you can buy me a beer in return
 
-Copyright (c) 2015 Hypriot
-Copyright (c) 2015 João Sena Ribeiro, sena@smux.net
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
+## Thanks to
+* João Sena Ribeiro <sena@smux.net> (Python3 base idea)
+* [Hypriot / Docker Pirates](http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/) (Raspberry Pi + Docker)

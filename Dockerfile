@@ -1,7 +1,7 @@
 
 # Pull base image
 FROM resin/rpi-raspbian:jessie
-MAINTAINER João Sena Ribeiro <sena@smux.net>
+MAINTAINER Felix Eckhardt felix.e@gmx.de
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
